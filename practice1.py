@@ -28,6 +28,7 @@ professional_tax = 300
 next_salary = salary - (it_tax + retirement_contri + professional_tax)
 print("Next Salary:", next_salary)
 
+#Practice 1
 maths_score = 95
 eng_score = 90
 science_score = 92
@@ -42,6 +43,7 @@ print(first_name + last_name)
 full_name = first_name + " " + last_name
 print(full_name)
 
+#Practice 2
 x = y = z = 1000
 print(x, y, z)
 print(x==y)
@@ -52,3 +54,22 @@ print(x==y)
 y -= y * 0.03
 print(y)
 print(y==z)
+
+#Practice 3
+nancy = derek = marlene = 5000
+nancy -= 100
+derek += derek * 0.05
+marlene -= 500
+marlene += marlene * 0.2
+print(nancy, derek, marlene)
+
+result = 90
+is_active = True
+is_not_active = False
+res = result + is_active
+res1 = result + is_not_active
+print(res)
+print(res1)
+
+score, gpa, active, name = 95, 9.5, True, "Umang"
+print(score, gpa, active, name)
