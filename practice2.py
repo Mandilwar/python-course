@@ -110,3 +110,13 @@ str4 = "I am learning Python \n and it is very useful for my career \t I am tryi
 str5 = 'That happened to be tonight\'s cricket game'
 print(str4)
 print(str5)
+
+str6 = "I am going to Julie\'s house"
+str6_1='I am going to Julie\'s house'
+str6_2='''I am going to Julie\'s house'''
+print(str6, str6_1, str6_2)
+
+str7 = "She said, she was \"sick\""
+str7_1 = 'She said, she was "sick"'
+str7_2 = '''She said, she was "sick"'''
+print(str7, str7_1, str7_2)
