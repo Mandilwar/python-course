@@ -33,3 +33,9 @@ l1[0]+=100
 print(l1)
 l1[3]*=3
 print(l1)
+
+print(sum(l1))
+print(max(l2))
+print(min(l2))
+
+print(sum(l1)/len(l1))
