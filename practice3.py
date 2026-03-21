@@ -37,3 +37,41 @@ reordered_date = f"{parts[2]}-{parts[1]}-{parts[0]}"
 print(reordered_date)
 print(date_string[::2]) # Skipping every 2nd character
 print(name2[1::2]) # Skipping every 2nd character starting from index 1
+print(name2[::-2])
+
+# startswith() function
+print(name2.startswith("Jam"))
+# endswith() function
+print(name2.endswith("Jam"))
+print(name2.endswith("d"))
+# count() function
+print(name.count("a"))
+# upper() function
+print(name.upper())
+print(name[3:].upper())
+# lower() function
+print(name.lower())
+print(name.lower().count("a"))
+# replace() function
+new_name=name.replace("Umang", "Sanjeev")
+print(new_name)
+# lstrip() function - removes the leading spaces from left
+str1="        I like Mangoes.     "
+print("***" + str1 + "$$$")
+print("***" + str1.lstrip() + "***")
+# rstrip() function - removes the trailing spaces from right
+print("***" + str1.rstrip() + "***")
+# strip() function - removes the leading and trailing spaces from both sides
+print("***" + str1.strip() + "***")
+
+sentence = "Python is a great programming language"
+print("Python" in sentence)
+print("python" in sentence)
+print("python" in sentence.lower())
+
+# split function
+words = sentence.split()
+print(words)
+
+sentence1 = "Python,is,a,great,programming,language"
+print(sentence1.split(','))
