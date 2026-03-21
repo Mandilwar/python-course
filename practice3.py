@@ -75,3 +75,28 @@ print(words)
 
 sentence1 = "Python,is,a,great,programming,language"
 print(sentence1.split(','))
+
+# join() function - It is used to join the elements of a list into a single string with a specified separator.
+rec=" ".join(words)
+print(rec)
+
+rec1="*".join(words)
+print(rec1)
+
+# practice 1
+user=input("Enter your Name: ")
+print(user)
+user_len = len(user)
+print(user_len)
+user_upper=user.upper()
+print(user_upper)
+user_lower=user.lower()
+print(user_lower)
+
+# practice 2
+str2=input("Enter your name: ")
+str3=input("Enter your age: ")
+res_str=f"Hello, {str2}! You are {str3} years old."
+print(res_str)
+res_str1="Hello, {}! You are {} years old.".format(str2, str3)
+print(res_str1)
